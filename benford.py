@@ -10,5 +10,3 @@ def load_data(filename):
     '''Open a text file & return a list of strings.'''
     with open(filename) as f:
         return f.read().strip().split('\n')
-
-        
